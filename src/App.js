@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     alanBtn({
-      key: "",
+      key: "203e74e0cf912425b7dde740b36b0c502e956eca572e1d8b807a3e2338fdd0dc/stage",
       onCommand: ({ command, articles }) =>
         handleVoiceRecognition(command, articles),
     });
@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>ALAN AI NEWS APPLICATION</h1>
+      <h1>NEW YORK TIMES</h1>
       <NewsCard articles={newsArticles} />
     </div>
   );

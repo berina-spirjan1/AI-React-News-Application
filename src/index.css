@@ -14,3 +14,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+h1{
+    text-align: center;
+}
